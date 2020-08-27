@@ -1,0 +1,138 @@
+body {
+    background-color: #F2F2F2;
+    font-family: 'Montserrat';
+}
+
+
+.container{
+    padding: 10px;
+}
+
+.card{
+    margin: 10px;
+    opacity: 0.58;
+    padding-bottom: 15px;
+}
+
+.program-box {
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 15px 12px #1B7E9A;
+    
+}
+
+.start-date {
+    background-color: #D6D6D6;
+    padding: 5px;
+}
+
+/* .right{
+    right: 20px;
+} */
+
+.row{
+    align-content: flex-start;
+}
+
+#Header {
+    font: normal normal bold 24px ;
+    font-weight: bold;
+    color: #25252D;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+#week{
+    margin-left: 10px;
+}
+#date-start{
+    font: normal normal 600 20px/24px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #25252D;
+    opacity: 1;
+}
+#time {
+    
+    letter-spacing: 0px;
+    font-size: 16px;
+    color: #25252D;
+    opacity: 0.5;
+    
+    
+}
+
+#theme{
+    font: normal normal 600;
+    position: relative; 
+    letter-spacing: 0px;
+    font-size: 20px;
+    color: #25252D;
+    /* opacity: 1; */
+    margin-left: 100px;
+    top: -40px;
+    
+    
+}
+
+#presenter{
+    letter-spacing: 0px;
+    position: relative; 
+    font-size: 16px;
+    color: #25252D;
+    opacity: 0.5;
+    margin-left: 100px;
+    top: -40px;
+}
+
+#linkedin{
+    font: normal normal 600 ;
+    position: relative; 
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #1B7E9A;
+    opacity: 1;
+    margin-left: 100px;
+    top: -40px;
+}
+
+#material{
+    font: normal normal 600;
+    letter-spacing: 0px;
+    color: #1B7E9A;
+    opacity: 1;
+    font-size: 14px;
+    float: right;
+    position: relative;
+    top: -55px;
+}
+
+#image {
+    width: 5%;
+    position: relative; 
+    bottom: -29px;
+}
+
+.pagination {
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+  }
+  .foot {
+      text-align: center;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
